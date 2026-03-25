@@ -1,0 +1,28 @@
+# Flutter/Dart
+*.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pub
+smart_gallery/pubspec.lock
+
+# Generated
+*.g.dart
+*.freezed.dart
+
+# Claude
+.claude/

@@ -1,0 +1,50 @@
+name: smart_gallery
+description: AI-powered photo gallery that groups photos by person and category.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Photo access
+  photo_manager: ^3.6.0
+
+  # ML Kit - Face Detection (free, on-device)
+  google_mlkit_face_detection: ^0.12.0
+
+  # ML Kit - Image Labeling (free, on-device)
+  google_mlkit_image_labeling: ^0.14.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # File utilities
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # Open files in external apps
+  open_filex: ^4.5.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Image caching
+  cached_network_image: ^3.4.1
+
+  # Collection utilities
+  collection: ^1.18.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
