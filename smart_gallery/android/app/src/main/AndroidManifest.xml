@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smartgallery.app">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Photo access permissions -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
